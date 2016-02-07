@@ -60,6 +60,9 @@ static VideoBootStrap *bootstrap[] = {
 #if SDL_VIDEO_DRIVER_COCOA
     &COCOA_bootstrap,
 #endif
+#if SDL_VIDEO_DRIVER_MALI
+    &MALI_bootstrap,
+#endif
 #if SDL_VIDEO_DRIVER_X11
     &X11_bootstrap,
 #endif

@@ -368,6 +368,9 @@ typedef struct VideoBootStrap
 #if SDL_VIDEO_DRIVER_COCOA
 extern VideoBootStrap COCOA_bootstrap;
 #endif
+#if SDL_VIDEO_DRIVER_MALI
+extern VideoBootStrap MALI_bootstrap;
+#endif
 #if SDL_VIDEO_DRIVER_X11
 extern VideoBootStrap X11_bootstrap;
 #endif
